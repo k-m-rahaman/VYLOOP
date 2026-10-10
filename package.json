@@ -1,0 +1,37 @@
+{
+  "name": "vyloop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "node scripts/serve.mjs",
+    "lint": "eslint src --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "motion": "14.0.0",
+    "lucide-react": "1.53.0",
+    "recharts": "3.10.1",
+    "react-hook-form": "7.89.0",
+    "zod": "4.6.5",
+    "@hookform/resolvers": "5.9.1",
+    "sonner": "2.0.8",
+    "@radix-ui/react-dialog": "1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.3",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.0",
+    "vitest": "5.0.3"
+  }
+}

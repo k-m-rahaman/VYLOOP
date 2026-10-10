@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.next-personal/
+out/
+.env*
+!.env.example
+.sites-runtime/
+*.tsbuildinfo
+*.tar.gz
+*.zip
+next-env.d.ts
+VYLOOP-startup.log
